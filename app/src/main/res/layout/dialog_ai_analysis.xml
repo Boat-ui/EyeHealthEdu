@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ai_analysis_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="#1A237E"/>
+
+        <!-- Category Result -->
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#E3F2FD"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Heatmap Image -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Visualization:"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_heatmap"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Explanation -->
+        <TextView
+            android:id="@+id/tv_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4sp"
+            android:background="#FFF8E1"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- DISCLAIMER -->
+        <TextView
+            android:id="@+id/tv_disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#D32F2F"
+            android:background="#FFEBEE"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- How AI Works Info -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🤖 How This Educational AI Works:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Converts image to numerical data\n2. Analyzes color patterns\n3. Compares to learned patterns\n4. Provides educational categorization\n\nReal medical AI requires:\n• Thousands of validated images\n• FDA approval\n• Clinical trials\n• Doctor supervision"
+            android:textSize="12sp"
+            android:lineSpacingExtra="2sp"
+            android:background="#F5F5F5"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>

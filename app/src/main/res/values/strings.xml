@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EyeHealthEdu</string>
+    <string name="find_eye_doctors">🏥 Find Eye Doctors</string>
+    <string name="eye_health_edu">👁️ Eye Health Edu</string>
+    <string name="analyze_eye_photo_simulation">📸 Analyze Eye Photo (Simulation)</string>
+    <string name="learn_about_eye_health">📚 Learn About Eye Health</string>
+    <string name="if_you_have_medical_concerns_consult_a_doctor_immediately">🚨 If you have medical concerns, consult a doctor immediately</string>
+    <string name="upload_eye_photo">📸 Upload Eye Photo</string>
+    <string name="todo">TODO</string>
+    <string name="take_photo">📷 Take Photo</string>
+    <string name="choose_from_gallery">📁 Choose from Gallery</string>
+    <string name="analyze_simulation">🔍 Analyze (Simulation)</string>
+    <string name="note_this_is_an_educational_simulation_only_results_are_not_medical_advice">Note: This is an educational simulation only. Results are not medical advice.</string>
+    <string name="educational_tool_disclaimer">EDUCATIONAL TOOL DISCLAIMER</string>
+    <string name="i_understand_continue_for_education">I Understand - Continue for Education</string>
+    <string name="exit_app">Exit App</string>
+    <string name="danger">⚠️</string>
+    <string name="educational_tool_only_not_medical_advice">Educational Tool Only • Not Medical Advice</string>
+    <string name="important_educational_tool_only">⚠️ IMPORTANT: EDUCATIONAL TOOL ONLY\n\n</string>
+    <string name="ai_analysis_title">ai_analysis_title\n</string>
+    <string name="analyze">Anlyze Photo</string>
+    <string name="analyze_eye_photo">Analyze Eye Photo</string>
+    <item name="btn_camera" type="id" />
+    <item name="btn_learn" type="id" />
+    <item name="btn_doctors" type="id" />
+    <item name="mini_disclaimer" type="id" />
+    <item name="image_view" type="id" />
+    <item name="btn_take_photo" type="id" />
+    <item name="btn_choose_photo" type="id" />
+    <item name="btn_analyze" type="id" />
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F9FA"
+    android:gravity="center">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/eye_health_edu"
+        android:textColor="#333333"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Mini Disclaimer -->
+    <TextView
+        android:id="@+id/mini_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#FF6B6B"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Camera Button -->
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analyze_eye_photo"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:background="#1565C0"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Learn Button -->
+    <Button
+        android:id="@+id/btn_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/learn_about_eye_health"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0277BD"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Find Doctors Button -->
+    <Button
+        android:id="@+id/btn_doctors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_eye_doctors"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="#2E7D32"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Emergency Info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/if_you_have_medical_concerns_consult_a_doctor_immediately"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#666666"
+        android:padding="8dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
